@@ -1,0 +1,8 @@
+img {
+    display: block;
+    width: 360px;
+}
+
+.gallery {
+    list-style: none;
+}
