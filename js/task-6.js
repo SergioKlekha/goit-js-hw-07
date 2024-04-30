@@ -2,7 +2,7 @@ const refs = {
     input: document.querySelector('input[type="number"]'),
     createBtn: document.querySelector('button[data-create]'),
     destroyBtn: document.querySelector('button[data-destroy]'),
-    boxes: document.getElementById('boxes'),
+    boxes: document.querySelector('#boxes'),
 };
 
 refs.createBtn.addEventListener('click', () => {
