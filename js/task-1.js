@@ -13,3 +13,5 @@ categoryItems.forEach(item => {
         `Кількість елементів у категорії ${categoryName}: ${categoryElements.length}`,
     );
 });
+
+document.querySelector('.list-home').style.listStyleType = 'none';
